@@ -1,7 +1,7 @@
 #!/bin/bash
 
 DIR="/opt/sback"
-REPO="https://github.com/<user>/sback.git"
+REPO="https://github.com/sinzn/sback.git"
 TMP="/tmp/sback"
 
 [ "$EUID" -ne 0 ] && NEED_SUDO=true
